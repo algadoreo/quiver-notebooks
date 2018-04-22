@@ -1,0 +1,13 @@
+{
+  "title": "AST425 Presentations",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Applying BEAMS to Fisher Matrix Forecasts for LSST\n### Katie Harris, March 28, 2018\n\nBEAMS: Bayesian Estimation Applied to Multiple Species\nWhy Bayesian?\n\n* Need a hook (attention grabber)\n* Nice gold mine analogy\n\nWhat sorts of contamination? Systematics, right?\n\n* What are the axes?\n* Highlight key points in the equations using English words\n\nWhat is Cosmosis? How you are using MCMC in this?\n\nHow do the supernova data constrain the LCDM params?\n\nYou had a good explanation of the Fisher matrix, can you put that in a picture? The equation you have is hard to understand.\n\n* Fisher requires an input data point, where did you get that from?\n* What happens if you change the central point?\n\nBananas: why do they arise?\n\nDerivative Approximation of Likelihood (DALI): how long do you think it would take?"
+    },
+    {
+      "type": "markdown",
+      "data": "## CMB lensing around cosmological structures\n### Ali Binesh Marvasti, March 28, 2018\n\nWhat is CMASS?\nWhat is lensing?\n\n\"Night sky\"?\n\nWhat is a Gaussian random field?\n\nWhy do we care about polarization?\n\nCan you be more specific about the \"statistical measurement\" of weak lensing?\n\nWhat is the significance of quoting the specific locations of the 2 ACT patches?\n\nWhat are CMB lensing maps? Are they different from the usual CMB maps?\nHow do you make a lensing map?\n\nYou explain what stacking does, but why does it work?\n\nStep 3, what is the relation between the two plots shown?\n\nHow did you decide which modes to filter out?"
+    }
+  ]
+}

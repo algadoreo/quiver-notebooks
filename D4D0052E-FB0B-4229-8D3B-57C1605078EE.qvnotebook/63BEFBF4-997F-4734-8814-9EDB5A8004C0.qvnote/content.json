@@ -1,0 +1,41 @@
+{
+  "title": "Forecasting paper: skeleton",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Purpose\n\nThe point of this paper will be to **forecast** the constraints placed on the $q_i$ by the various experiments using Fisher analysis. (MCMC will be a future paper)"
+    },
+    {
+      "type": "markdown",
+      "data": "## Things I’ve done so far\n\n* Modified `CAMB` to (cubic) spline the power spectrum $P(k)$ **using data points from Hložek _et al._ (2012)**\n* Fisher matrix for $q_i$ from that dataset calculated using modified `OxFish`\n* Wrote an eigenanalysis pipeline using `Eigen 3.3.4`\n* Have shown that the highest-ranked eigenmodes cluster where the SNR is highest (i.e., lowest noise), which corresponds to $k \\sim 0.1$ $(\\ell \\sim 3000)$"
+    },
+    {
+      "type": "markdown",
+      "data": "## Things I need to do\n\n* Verify all the experiment specs for _Planck_ 2015, _AdvACT_, SO, and CMB-S4\n* Convert the cubic spline $P(k)$ in `CAMB` to B-spline\n* Determine the **motivation** for this work and the **implications** of eigenmode clustering\n* Complete literature search to see who has done similar work"
+    },
+    {
+      "type": "markdown",
+      "data": "# Skeleton"
+    },
+    {
+      "type": "markdown",
+      "data": "## Introduction\n\n* Introduce $P(k)$ and its relation to inflation\n* Previous works: what has been done so far?\n* What is new about this work? **motivation**\n  * Talk about new data from _Planck_ 2015 and _AdvACT_\n  * Why we want to forecast for SO and CMB-S4\n  * Why bother with PCA?"
+    },
+    {
+      "type": "markdown",
+      "data": "## Background (Theory)\n\n### Inflation theory\n\n* How to go from $P(k)$ to **observables**, e.g., CMB\n  * Important quantity: the tilt $\\mathrm{d}\\log\\delta_\\mathrm{H}^2/\\mathrm{d}\\log k$\n* Reconstructing $P(k)$ from CMB data, e.g., Hložek _et al._ (2012)\n  * They did MCMC of 20 bins. Do I need to re-show their method? This would be in method, I think\n\n### Fisher analysis\n\n* Why it’s useful\n* Could re-use a lot of stuff from proposal\n\n### PCA\n\n* How it works:\n  * Show the linear algebra\n  * From correlated to uncorrelated parameters"
+    },
+    {
+      "type": "markdown",
+      "data": "## Method\n\n### Software used\n\n* CMB: `CAMB`\n  * B-splines\n* Fisher: `OxFish`\n  * Go over how it works\n  * Data covariance $\\mathbf{C} \\sim C_\\ell + N_\\ell$\n* Eigenanalysis: `Eigen 3.3.4`\n\n### Checks\n\nShow that the _Planck_ 2015 values are (mostly) recovered. Have to explain why they’re not exactly the same though – may be because of systematics: Fisher analysis only tells you _statistical errors_, not systematic ones."
+    },
+    {
+      "type": "markdown",
+      "data": "## Results\n\n* Eigenmode clustering\n  * Discuss origins in the linear algebra\n* Errorbar sizes for each $q_i$ for each _Planck_ 2015, _AdvACT_, SO, and CMB-S4"
+    },
+    {
+      "type": "markdown",
+      "data": "## Discussion\n\nNeed to figure out what the implications of the eigenmode clustering are. Can this be useful?"
+    }
+  ]
+}

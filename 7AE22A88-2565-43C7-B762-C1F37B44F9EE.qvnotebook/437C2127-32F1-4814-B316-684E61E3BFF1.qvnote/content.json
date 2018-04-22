@@ -1,0 +1,10 @@
+{
+  "title": "Super-horizon scales (email Mar 24)",
+  "cells": [
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "the relevant scale during inflation is the wavenumber $k_H \\sim Ha (t)$. for $k$ larger the fluctuations oscillate. for $k$ smaller they dont. \nalthough there are waves much longer than the $k_H$ associated with our current horizon scale $\\sim 10^{-4} \\,\\mathrm{Mpc}^{-1}$ and down to $1 \\,\\mathrm{cm}^{-1}$ comoving where inflation ends (acceleration parameter $\\epsilon$ passes through 1) there are only about 9 $e$-foldings that cmb/lss observations are sensitive to. \n\nthe relation of smoothing over the $k_H$ scale and the dynamical evolution of $H(a)a$ is at the heart of stochastic inflation where the low $k$ evolve with $k$ effects neglected (the gradient expansion) – called drift – except waves are added from the smoothing scale boundary as it increases in $\\mathrm{d}t$ – the kicks from quantum diffusion. \n\nsalopek and i showed stochastic inflation which computes the waves which come across the horizon (joining the no oscillation part)  in $\\mathrm{d}\\ln k_H$ in time $\\mathrm{d}t$ – which is more or less an en $e$-folding – is an excellent approximation. \n\nit is what peacock etc are trying to describe, low $k$ obey a classical hamilton–jacobi equation except for the quantum kicks. \n\nif you look at any of my talks (website) on inflation you will see this described. "
+    }
+  ]
+}

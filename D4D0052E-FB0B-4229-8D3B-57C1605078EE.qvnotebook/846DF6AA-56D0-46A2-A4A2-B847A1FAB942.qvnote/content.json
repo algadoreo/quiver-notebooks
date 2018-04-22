@@ -1,0 +1,9 @@
+{
+  "title": "Meeting with Barth (April 3, 2018)",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "Inflation parameters change $\\rightarrow$ universe changes\n* How to design an experiment or data reduction technique that can pick out those parameters AND disentangle them from other secondary effects (e.g., degeneracies)\n* If a parameter changes, how does the CMB respond?\n  * exactly, not just with hand-wavey arguments\n  * have a **story** to tell!\n\nWhat is $V(\\phi)$ for DE? de Sitter?\n\nExactly _how_ does $V(\\phi)$ drive inflation?\n\nWhat is $\\phi$ exactly? How does $\\phi$ affect the universe?\n* probability amplitude\n* does $\\phi$ set the curvature perturbations $\\zeta$? or does the realization do that? e.g., consider a uniform distribution: do we expect fluctuations?\n\nHow does $n_s$ constrain inflation? What does $n_s = 1$ mean?\n\n“Gut-level” explanation of what’s going on\n* Why PCA + Fisher and not another technique?\n* Explain to an experimentalist\n\nAt high $\\ell$s, foregrounds going to kill you\n* how do _Planck_, SO, CMB-S4 deal with this?\n\nHow to ask the right questions? (right = scientifically relevant)"
+    }
+  ]
+}

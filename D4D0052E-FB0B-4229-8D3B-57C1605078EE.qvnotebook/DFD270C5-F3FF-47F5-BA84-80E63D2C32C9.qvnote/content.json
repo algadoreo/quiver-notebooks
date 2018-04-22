@@ -1,0 +1,37 @@
+{
+  "title": "SO Telecon (April 9, 2018)",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "**Josquin and David:** Figure 3 and Table 2 from simulations\n* now cincludes synchrotron dust model\n  * Jo: doesn’t improve errors too much\n  * Neelima + Jo: something about $\\ell$-“knees” (see eq. 1)"
+    },
+    {
+      "type": "markdown",
+      "data": "**Erminia:** damping tail\n* Use $N_\\text{eff}$ as proxy\n* “co-add” noise curves for 93 and 145 GHz\n* DM cross-section forecasts\n* axion interactions (Renée)\n* Constraints on $\\mathcal{P}(k)$: why did Jo say SO-LAT is uniquely capable of measuring $\\mathcal{P}(k)$?\n  * something about _Planck_ can only measure $r$\n* Table 3: Renée thinks $\\sigma_{\\mathcal{P}(k)}$ values too small, compared to previous MCMC values?\n* What is the “marginalized over slow-roll parameters” business?\n* Figure 7\n* Erminia + Jo: want to see _baseline_ values rather than _goal_ values\n  * what’s the difference?"
+    },
+    {
+      "type": "markdown",
+      "data": "**Blake Sherwin:** lenses\n* AdvACT still in progress\n* Section 5: main figure is 13\n  * Why is $A_\\text{lens}$ so large (= 40–90)?\n  * And why does it decrease?\n* Why do these parameters translate to global changes in $\\sigma$?"
+    },
+    {
+      "type": "markdown",
+      "data": "**David:** LSST\n* SO will be over about LSST data release year 3 (2026)\n* 10-year LSST will reach limit of 27th magnitude with 5$\\sigma$"
+    },
+    {
+      "type": "markdown",
+      "data": "**Marcel:** $f_\\text{NL}$ (bispectrum amplitude)\n* Challenge for high-$z$ LSST: don’t know $z$-distribution"
+    },
+    {
+      "type": "markdown",
+      "data": "**Daan:** forecasts for scalar non-Gaußianities\n* tensor modes coupled to scalars?"
+    },
+    {
+      "type": "markdown",
+      "data": "**Adri:** SZ\n* uses a Fisher code to get constraints"
+    },
+    {
+      "type": "markdown",
+      "data": "**Nick:** more on SZ\n* $w(z)$ spectrum\n* calibrating masses\n  * what masses?\n* width of reionization"
+    }
+  ]
+}
