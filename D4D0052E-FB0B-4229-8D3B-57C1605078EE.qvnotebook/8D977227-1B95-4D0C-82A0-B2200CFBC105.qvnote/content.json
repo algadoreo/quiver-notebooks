@@ -1,0 +1,9 @@
+{
+  "title": "SO Telecon (April 23, 2018)",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "**Renée:** Updates on $\\mathcal{P}(k)$\n* looking at $k=0.2$ since SO is better than _Planck_ here\n* sees significant improvement in errorbar size: $\\sim 10^{-9}$ vs $10^{-12}$\n* David: why we want to push to larger $k$: non-inflation mechanisms for structure formation often have trouble with scale-invariance across large range\n* is $k = 0.2$ ($\\ell \\approx 2940$) the only science goal? think SO can push further\n\n**Nick:** SZ\n* _hard to make out this part due to garbled messages_\n\n**Megan:** foreground point sources\n* AGNs, dusty galaxies, transients, possibly polarization\n\n> Different science parameters have different dependence on foregrounds\n\n**Arthur:** concern about the ~~0.05%~~ goal in science requirement matrix\n* component separation better than 1 part in 1000???\n  * what components is he referring to?\n  * some talk about components being the different parts of the instrument\n* ILC projection: done correctly?\n\n> **Is actually 0.5%**\n\n**David:** we shoiuld also constrain running since the constraint on amplitude is so good\n* 0.5% is more in line with expectations (AdvACT is ~1%)\n\n> “Pre-SO” = ACT lensing + DESI\n\n**Neelima:** de-lensing, neutrino mass\n* Figures 16–17\n\n**Blake:** cross-correlation\n* Figure 18: fractional error as function of $z$\n* Figure 19: constraints on $f_\\text{NL}$\n  * why are the lines not in the “single-field inflation” region? ~~have we ruled it out?~~ I think this means that the errorbar needs to be smaller to rule out single-field (i.e., the line is the errorbar size)\n"
+    }
+  ]
+}

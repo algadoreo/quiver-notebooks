@@ -1,0 +1,21 @@
+{
+  "title": "Baumann, D. 2011. The Physics of Inflation (Lecture notes), Chapter 3",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Chapter 3: Contact with observations"
+    },
+    {
+      "type": "markdown",
+      "data": "##3.1 Introduction\n\nHow can the CMB tell us about the very early universe?\n\nBetween horizon exit and re-entry, the physics and equations governing perturbations are not well-known. Thankfully, the wavelengths of interest exited the horizon pretty early on and became very much superhorizon ($k \\ll aH$), where we showed that $\\dot{\\zeta} \\approx 0$.\n\n> The only reason that we are able to connect late-time observables to inflationary theories is the fact that the wavelengths of the perturbations of interest were outside the horizon during the period from well before the end of inflation until the relatively near present.\n\n> After inflation, the universe becomes filled with matter and radiation, and **we need to establish under which conditions $\\zeta$ remains conserved on superhorizon scales**."
+    },
+    {
+      "type": "markdown",
+      "data": "## 3.2 Superhorizon (non-)evolution\n\n### 3.2.1 Weinberg’s proof\n\nGauge-invariant curvature perturbation written in Newtonian gauge variables\n\\begin{align}\n\\zeta &= -\\Psi + H \\delta u \\\\\n\\Rightarrow \\dot{\\zeta} &= \\frac{\\dot{\\bar{\\rho}}\\delta p - \\dot{\\bar{p}}\\delta \\rho}{3(\\bar{\\rho}+\\bar{p})^2} + \\mathcal{O}\\left(\\frac{k^2}{(aH)^2}\\right)\n\\end{align}\n\nIn $k\\ll aH$ limit, need the first term $\\rightarrow 0$.\n\nWeinberg proved that:\n\n1. There is always have a physical solution which the first term $\\rightarrow 0$ and $\\lim_{k\\rightarrow 0} \\zeta = \\zeta^0 \\ne 0$; this is the **adiabatic mode**\n2. Single-field inflation excites the adiabatic mode\n\n### 3.2.2 Separate universe approach\n\nDifferent superhorizon-sized regions evolve as separate FLRW universes, perturbed from the background expansion by $\\zeta$: $a(t,\\mathbf{x}) = a(t) e^{\\zeta(t,\\mathbf{x})}$. **Adiabatic fluctuations** are completely determined by $\\zeta$ alone, so two regions $a$ and $b$ differ only by a time shift from the background: $a(t)e^{\\zeta_a}$ and $a(t)e^{\\zeta_b}$. **The two regions therefore have identical, but slightly time-shifted, evolutions.** As the background universe continues to expand, these time shifts remain the same over time:\n\n\\begin{align}\n\\begin{cases}\n\\zeta_a(t_1) = \\zeta_a(t_2) \\\\\n\\zeta_b(t_1) = \\zeta_b(t_2)\n\\end{cases}\n\\Rightarrow \\zeta \\text{ is constant in time}.\n\\end{align}\n\n**N.B.: The same cannot be said of non-adiabatic perturbations.**"
+    },
+    {
+      "type": "markdown",
+      "data": "## 3.3 From vacuum fluctuations to CMB anisotropies\n\n### 3.3.1 Statistics of temperature anisotropies"
+    }
+  ]
+}
