@@ -3,7 +3,7 @@
   "cells": [
     {
       "type": "markdown",
-      "data": "# Chapter 5: The primordial density perturbation\n\nThe **curvature perturbation is conserved on superhorizon scales** provided that the pressure of the cosmic fluid depends only on its energy density.\n\n### Notation and conventions\n\n$R$: comoving radius, also denoted $1/k \\equiv k^{-1}$\n$aR$: true (proper) radius, also denoted $a/k$\n$H$: horizon size in natural units ($cH$ in regular units)\n\n$k \\ll aH$ $\\left(R \\gg 1/aH\\right)$: long wavelengths; **super**horizon\n$k \\gg aH$ $\\left(R \\ll 1/aH\\right)$: short wavelengths; **sub**horizon"
+      "data": "# Chapter 5: The primordial density perturbation\n\nThe **curvature perturbation is conserved on superhorizon scales** provided that the pressure of the cosmic fluid depends only on its energy density.\n\n### Notation and conventions\n\n$R$: comoving radius, also denoted $1/k \\equiv k^{-1}$\n$aR$: true (proper) radius, also denoted $a/k$\n$H^{-1}$: horizon size in natural units ($c/H$ in regular units)\n\n$k \\ll aH$ $\\left(R \\gg 1/aH\\right)$: long wavelengths; **super**horizon\n$k \\gg aH$ $\\left(R \\ll 1/aH\\right)$: short wavelengths; **sub**horizon"
     },
     {
       "type": "markdown",
