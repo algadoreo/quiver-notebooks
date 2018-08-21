@@ -1,0 +1,10 @@
+{
+  "title": "Prettier matplotlib plots",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "%matplotlib inline\n%config IPython.matplotlib.backend = \"retina\"\n%config InlineBackend.figure_format = \"retina\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.rcParams[\"font.family\"] = \"serif\"\nplt.rcParams[\"font.size\"] = 14\nplt.rcParams[\"figure.figsize\"] = 16, 9"
+    }
+  ]
+}

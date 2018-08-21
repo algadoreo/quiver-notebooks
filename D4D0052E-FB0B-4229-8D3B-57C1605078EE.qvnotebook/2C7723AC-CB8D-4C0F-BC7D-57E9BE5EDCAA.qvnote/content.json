@@ -1,0 +1,14 @@
+{
+  "title": "xFaster instructions from Johanna",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "cp /project/r/rbond/spider/XF_Ensemble_May18/masks_vpol .../XF_Nulls_July18/left and right\npython xfaster_example.py --ppn\n\nmask_type = 'vpol'\nsignal_type = 'flatBB' (the thing after 'signal_')\nsignal_spec = 'flatBB' (might need the full file name, include extension?)\ndata_root2 : 'path/to/right or left'\ntbeb = True (try this first)\nbeam_product = 'beam12'"
+    },
+    {
+      "type": "text",
+      "data": "<div>Check out Johanna's /home/r/rbond/jnagy/xfaster_data_spectra2.py<br></div>"
+    }
+  ]
+}

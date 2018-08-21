@@ -1,0 +1,23 @@
+{
+  "title": "Arduino code: Dimming an LED via I2C",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Master"
+    },
+    {
+      "type": "code",
+      "language": "c_cpp",
+      "data": "#include <Wire.h>\n\nint LED = 12;\nint x = 0;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  Serial.begin(9600);\n  analogReadResolution(12);\n  analogWriteResolution(12);\n  // Define the LED pin as Output\n  pinMode(LED, OUTPUT);\n\n  // Start the I2C Bus as Master\n  Wire.begin();\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int n = Wire.requestFrom(9, 2);\n  while(Wire.available()) {\n    byte buf[2];\n    for (int i = 0; i<n; i++) {\n      buf[i] = Wire.read();\n    }\n    int x = 4095 - (buf[0] + (buf[1] << 8))*2;\n    Serial.println(x);\n    analogWrite(LED, x);\n  }\n\n  delay(50);\n}"
+    },
+    {
+      "type": "markdown",
+      "data": "## Slave"
+    },
+    {
+      "type": "code",
+      "language": "c_cpp",
+      "data": "// Include the required Wire library for I2C\n#include <Wire.h>\n\nconst int FLEX_PIN = A0;\nint flexADC = 0;\n\nvoid setup() {\n  Serial.begin(9600);\n  analogReadResolution(12);\n  analogWriteResolution(12);\n  pinMode (FLEX_PIN, INPUT);\n  \n  // Start the I2C Bus as Slave on address 9\n  Wire.begin(9);\n\n  Wire.onRequest(requestEvent);\n}\n\nvoid requestEvent() {\n  flexADC = analogRead(FLEX_PIN);\n  byte buf[2];\n  buf[0] = flexADC;\n  buf[1] = flexADC >> 8;\n  Wire.write(buf, 2);\n}\n\nvoid loop() {\n}"
+    }
+  ]
+}
