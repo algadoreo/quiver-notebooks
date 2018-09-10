@@ -11,7 +11,7 @@
     },
     {
       "type": "text",
-      "data": "<img src=\"quiver-image-url/725CAC2953C0511B474912CEC6DF44BA.png\" alt=\"arduino_due_chain.png\" width=\"743\" height=\"430\"><br><div><b>Figure 1:</b> The chain of Arduino DUEs set up for message passing via I2C communication. The board communicating with the main computer via the serial port is designated Device 0.</div>"
+      "data": "<img src=\"quiver-image-url/4CCF8423E44B41D8D08F90B2A2B4FA53.png\" alt=\"arduino_due_chain.png\" width=\"732\" height=\"471\"><br><div><b>Figure 1:</b> The chain of Arduino DUEs set up for message passing via I2C communication. The board communicating with the main computer via the serial port is designated Device 0.</div>"
     },
     {
       "type": "markdown",
