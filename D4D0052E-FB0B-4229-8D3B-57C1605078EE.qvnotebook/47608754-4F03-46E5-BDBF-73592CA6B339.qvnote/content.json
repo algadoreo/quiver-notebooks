@@ -1,0 +1,61 @@
+{
+  "title": "Thesis qual presentation transcript",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Slide 1\n\nThese days, you’ll often hear cosmologists talking about this number called $r$. Now if you’re not a cosmologist, you might be wondering what they’re talking about.\n\nTo answer that question, let me first bring up this (hopefully) familiar picture of the history of our universe – all 14 billion years of it.\n\nBut the answer to our question really lies in the first moments after the Big Bang, in a postulated era called cosmic inflation. (pause) Inflation was first hypothesized in the 1980s to explain a number of coincidences in cosmology, for example, the flatness of the universe, or the apparent uniformity of the cosmic microwave background (CMB).\n\nThat said, inflation also makes a set of predictions that we can test. In particular, it ought to produce a nearly scale-invariant spectrum of scalar perturbations. These are also called curvature perturbations, or if you’re Dick Bond, you’ll call it $\\zeta$. GR then tells us that these are equivalent to matter–energy perturbations. These density perturbations are the source of the hot and cold spots on the CMB, which go on to seed the large-scale structures we see in the universe today.\n\nFurthermore, inflation should produce tensor perturbations, which, in essence, are a background of gravitational waves."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 2\n\nAnd so, we define this number $r$ as the ratio between the tensor perturbations to the scalar perturbations. It is a direct measure of the energy scale of inflation. So how do we measure it?"
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 3\n\nIt turns out that $r$ is imprinted in the cosmic microwave background. What you see here is a photo of the CMB taken by the _Planck_ satellite. There’s the usual hot and cold spots, and overlaid on top is a swirly pattern caused by the **polarization** of the CMB photons.\n\nThe CMB photons come to us from the entire sky, which, from our perspective, forms the surface of a sphere. This is a bit of a problem, because polarization is usally defined using rectilinear coordinates – the Stokes parameters are one example that uses a rectilinear basis – which has no trivial mapping to a sphere.\n\nAnd so, it is more convenient in cosmology to define a coordinate-independent description, which have now come to be called _E_-modes and _B_-modes, so named because they have properties resembling _E_ and _B_ fields in electromagnetism. But the analogy ends there. The main takeaway here is that, in terms of primordial sources, _E_-modes can be sourced by both scalars and tensors, whereas _B_-modes can only be sourced be tensor perturbations, which makes it an **inflation-exclusive phenomenon**. It is for this reason that you’ll hear people saying that the detection of primordial _B_-modes is the “smoking gun” of inflation.\n\nSignals from the CMB are often expressed in terms of its angular power spectrum. This is really a spherical harmonic decomposition, but in a sense, you can think of it as describing how many things of a certain angular size are in the CMB.\n\nThis is what the primordial _B_-mode’s angular power spectrum looks like. You may have noticed I don’t have any numbers on the vertical axis. That’s because the amplitude of this signal depends on the value of $r$: the larger the value of $r$, the larger your tensor perturbations, and the amplitude goes up. And if you have a smaller $r$, the amplitude goes down. Once you measure this signal, its amplitude will tell you the value of $r$, which in turn tells you the energy scale of inflation.\n\nUnfortunately – or if you’re an optimist, fortunately – our universe is a more interesting place than that. It turns out that gravitational lensing from large-scale structures can warp _E_-modes into _B_-modes. This lensing signal has its own spectrum shown as the dashed line on this plot. The BICEP–Keck team down at the South Pole has done a good job characterizing the lensing signal, but here in the lowest $\\ell$-bins, where the primordial signal peaks, they have suffered from setbacks so the best they could do is to place an upper bound on $r$. This upper bound currently sits at 0.06."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 4\n\nSPIDER, which is the experiment I’m working on, has an $r$ sensitivity of 0.03 at a 99% confidence level. It will achieve this through a combination of raw instrument sensitivity and foreground removal."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 5\n\nSPIDER benefits greatly from the fact that it makes observations from 35 km above the ground. Because at this altitude, there is much less atmosphere to worry about. We do, however, still have to worry about carbon monoxide emission from galactic sources, and so the SPIDER bands are placed in the available windows.\n\nDuring the first flight, SPIDER flew with detectors at 94 and 150 GHz. The upcoming second flight will add another three detectors at 285 GHz."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 6\n\nThe first flight mapped out approximately 10% of the full sky, in the region shown here, and will be repeated in the second flight. This region was chosen deliberately to avoid this bright arc here, which is our Milky Way galaxy – or rather, the dust in our Milky Way galaxy. As it turns out, dust is quite bright at the frequencies we care about.\n\nSo if this is the CMB, then these are the polarized galactic foreground emission we need to worry about – shown here is the average over the sky _off_ the galactic plane. As you can see, these foregrounds must be removed in order to tease out the CMB. SPIDER’s 94 GHz band is placed close to the foreground minimum, while the new 285 GHz band will be a dust characterizing channel used to de-dust our maps."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 7\n\nTaking everything into account, SPIDER will be able to push the $r$-limit down to 0.03. This is the same plot as I’d shown earlier, except now the primordial signal has been lowered down to 0.03. SPIDER is designed to really lock down the region from $\\ell$ of 30 to 100, where the primordial signal is the strongest."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 8\n\nIn terms of hardware, these are the milestones we’re looking at: we’ll have gondola integration campaign this summer, and if all goes well, we’ll ship it off to Antarctica for deployment later this year."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 9\n\nRight, so gondola integration is going to happen at the Columbia Scientific Balloon Facility in Palestine, Texas this summer, and the first thing we’ll have to do is to assemble the thing: build the frame, mount the cryostat, power on the electrical systems, things like that.\n\nThis is a picture of us back in November re-assembling the gondola in Princeton, and we’ll need to this again a couple more times.\n\nThere is _a lot_ of stuff that goes into SPIDER, and while I’ll be supporting as many of them as I can, here are the subsystems I’ll be most active in. In particular, the magnetometer, star cameras, and sun sensor arrays are going to play a huge role, and I’ll get back to them in a sec. I’m most excited about implementing the thermometry system I made last summer.\n\nWe found that we could make a precise and cost-effective thermometry system using Arduinos. Because we don’t expect there to be any large thermal gradients in the stratosphere due to its low density, we don’t need temperature readings more than once or twice a second. We can instead devote the extra CPU cycles to apply a moving average filter to lower the noise. The whole setup costs $4 a channel with about a precision of a quarter of a degree. The best part about it is that it is entirely modular, so you can just attach more boards if you want more channels.\n\nOnce everything is assembled, we have to test everything to make sure they work as intended. This is especially important because we won’t be able to physically access any of our instruments after launch. We’ll finish up with a scan test, which is basically a dry run of the scanning where we hang the gondola from a crane and have it do its thing."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 10\n\nOnce we’re happy with everything, we’ll pack it up and ship it down to Antarctica. Once we get there, we’ll repeat everything I just said, and hopefully we’ll see SPIDER in the sky by the end of the year."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 11\n\nAfter the data is collected, one of the first thing that has to happen before we can start science analysis is to figure out where the telescope was pointing at any given time. To do that, we’ll have to generate what is called a pointing solution, and this is something that will form a chapter in my thesis.\n\nData to generate the pointing solution will come from a number of sensors on SPIDER, and this is the reason why I emphasized these instruments during the gondola integration campaign. Each of these sensors tell you different things, but the main players are going to be the star cameras and gyroscopes, with the others as backup. So what’s going to happen is that the star cameras will take a photo of the sky once every turnaround, and then we’ll integrate the gyroscope readings to figure out where the telescope was pointing at any given time."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 12\n\nOnce we have the pointing solution, which we need to generate maps, we can start doing things like detector calibration. This will be followed by the process of foreground removal, which will take us to the end of 2021."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 13\n\nBefore I conclude, there’s a neat little analysis project I’ve also been doing that I want to share. In the early days of analyzing data from the first flight, we realized that some timestreams suffered from scan-synchronous noise. So this is where the timestream drifts along with the scanning pattern, so we know it’s not random noise, but also no one knows where it’s coming from. This is usually low frequency, so the usual approach is to just filter it out. The downside, however, is that this also filters out the large-scale CMB modes.\n\nSo we’re developing this technique to recover the large-scale modes from _Planck_ data. So let’s say the data from our two experiments are given by the CMB + instrument noise, then if we subtract them, the CMB cancels out and we’re left with the difference of the noise, $N_S - N_P$. For simplicity, let’s take the limit of a perfect high-pass filter: at low $\\ell$s, we get nothing, and at high $\\ell$s we get back what we put in, $N_S - N_P$. Nothing remarkable so far, but the next part is where the magic happens: if we add _Planck_ back in, then you’ll notice that we get $P$ at low $\\ell$s and $S$ at high $\\ell$s, and so we’ve recovered the CMB at all scales.\n\nNow if you’re thinking, well this was an unnecessarily complicated way of just adding two disjoint datasets together, remember I said this was a simplified description where I used the limit of a perfect high-pass filter. The real process doesn’t bisect our data into low- and high-$\\ell$s, so there’s still SPIDER contribution at low $\\ell$, and we’re adding _Planck_ information on top of it. This technique has passed every null test we’ve thrown at it so far, and so we’re confident that we can use this for data from the second flight as well."
+    },
+    {
+      "type": "markdown",
+      "data": "## Slide 14\n\nThat brings me to the end of my presentation, and I’ll pause here."
+    }
+  ]
+}
