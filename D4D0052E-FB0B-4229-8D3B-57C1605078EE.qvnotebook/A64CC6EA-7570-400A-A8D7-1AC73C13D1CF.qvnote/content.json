@@ -1,0 +1,9 @@
+{
+  "title": "Using CAMB on Niagara",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "When using `ifort` to compile, remove the `-fast` flag from the `Makefile`."
+    }
+  ]
+}
