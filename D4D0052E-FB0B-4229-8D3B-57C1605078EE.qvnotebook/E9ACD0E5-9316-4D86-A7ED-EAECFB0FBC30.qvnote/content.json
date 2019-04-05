@@ -1,0 +1,17 @@
+{
+  "title": "PCA explanation [Alex van Engelen]",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<b>Q:</b>&nbsp;Why should we trust principal components at all?<div><br></div><div>From what I’ve read and understood:<div><ol><li>The PCs themselves don’t necessarily correspond to a physical parameter<br></li><li>They depend on the model you chose to begin with (e.g., a 20-parameter model returns 20 PCs)<br></li></ol></div></div>"
+    },
+    {
+      "type": "text",
+      "data": "<div><b>A:</b> I think the answer is that it boils down to data compression and the optimal use of resources. &nbsp;It is true that a 20-param model returns 20 PCs, but if only the first, say, 5, are constrainable with the data at appreciable signal-to-noise ratio, then you might as well just compute the constraints on those 5, and then you can claim that you have extracted all the information that you will ever get from the data. &nbsp;This is definitely the idea with the reioinzation papers out of the Hu group: the claim is that even if you had cosmic variance-limited data you would only be able to constrain 5 principle components, so you might as well run a Markov chain with those 5 (plus the 5 usual LCDM parameters in addition to tau). &nbsp;This allows them to claim that they have determined 'complete' limits on the reionization history from the CMB. &nbsp;This is useful because the time to get constraints on parameters scales with the number of parameters you have, so it makes sense to reduce the number of parameters that you are constraining; PCA gives you a way to do that.</div><div><br></div><div>The other application is for extrapolation purposes; if you know that the existing data lie on some (hyper)plane in parameter space, described by your PCA modes, then you can predict the properties of some new datapoint that you don't have yet. &nbsp;This has application in machine learning / prediction.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Resources</b><div><ul><li>Numerical Recipes, chapter 15 on \"Modelling of Data\":  <a href=\"http://numerical.recipes/\">http://numerical.recipes/</a><br></li><li>Licia Verde's notes on \"Statistical methods in cosmology\", though most (all?) of the methods have broader applications than just cosmology: <a href=\"https://arxiv.org/pdf/0911.3105.pdf\">https://arxiv.org/pdf/0911.3105.pdf</a><br></li></ul></div>"
+    }
+  ]
+}
